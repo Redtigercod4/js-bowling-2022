@@ -14,7 +14,7 @@ class BowingPlayer {
         this.points.push(newScore)
         return this.points
     }
-};
+}; 
 
 
 module.exports = {
