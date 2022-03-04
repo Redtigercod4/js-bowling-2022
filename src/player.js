@@ -9,11 +9,6 @@ class BowingPlayer {
     getPoints = () => {
         return this.points;
     }
-    scoreGame(pins) {
-        let newScore = this.points + pins;
-        this.points.push(newScore)
-        return this.points
-    }
 }; 
 
 
