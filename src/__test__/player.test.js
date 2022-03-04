@@ -16,25 +16,25 @@ describe('Retrieves Player Points', () => {
     })
 })
 
-it('Given a player has rolled 2 balls and hit 1 & 7, their score should be 8', () => {
-    const player = new BowlingPlayer();
-    player.recordBall(1);
-    player.recordBall(7);
-    assert(player.getScore()).equals(8);
-})
+// it('Given a player has rolled 2 balls and hit 1 & 7, their score should be 8', () => {
+//     const player = new BowingPlayer();
+//     player.recordBall(1);
+//     player.recordBall(7);
+//     assert(player.getScore()).equals(8);
+// })
 
-it('Given a player has rolled 2 balls and hit 0 & 1, their score should be 1', () => {
-    const player = new BowlingPlayer();
-    player.recordBall(1);
-    player.recordBall(0);
-    assert(player.getScore()).equals(1);
-})
+// it('Given a player has rolled 2 balls and hit 0 & 1, their score should be 1', () => {
+//     const player = new BowingPlayer();
+//     player.recordBall(1);
+//     player.recordBall(0);
+//     assert(player.getScore()).equals(1);
+// })
 
-it('Given a player has rolled 2 balls and hit 0 & 0, their score should be 0', () => {
-    const player = new BowlingPlayer();
-    player.recordBall(0);
-    player.recordBall(0);
-    assert(player.getScore()).equals(0);
-})
+// it('Given a player has rolled 2 balls and hit 0 & 0, their score should be 0', () => {
+//     const player = new BowingPlayer();
+//     player.recordBall(0);
+//     player.recordBall(0);
+//     assert(player.getScore()).equals(0);
+// })
 
 
