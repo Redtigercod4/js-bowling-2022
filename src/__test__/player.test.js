@@ -16,25 +16,24 @@ describe('Retrieves Player Points', () => {
     })
 })
 
-// it('Given a player has rolled 2 balls and hit 1 & 7, their score should be 8', () => {
-//     const player = new BowingPlayer();
-//     player.recordBall(1);
-//     player.recordBall(7);
-//     assert(player.getScore()).equals(8);
-// })
+describe('Checks if frame points are being pushed to player points', () => {
+    xit('Checks Player Points matches frame points',  () => {
+        //Code here
+    })
+})
 
-// it('Given a player has rolled 2 balls and hit 0 & 1, their score should be 1', () => {
-//     const player = new BowingPlayer();
-//     player.recordBall(1);
-//     player.recordBall(0);
-//     assert(player.getScore()).equals(1);
-// })
+describe('If frame has a strike, it grabs the next frame score and updates it', () => {
+    xit('Updates frames if strike is present', () => {
+        //Code here
+    })
+})
 
-// it('Given a player has rolled 2 balls and hit 0 & 0, their score should be 0', () => {
-//     const player = new BowingPlayer();
-//     player.recordBall(0);
-//     player.recordBall(0);
-//     assert(player.getScore()).equals(0);
-// })
+describe('If frame has spare, it grabs the next frame score and updates it', () => {
+    xit('Updates frames if spare is present', () =>  {
+        //Code here
+    })
+})
+
+
 
 
